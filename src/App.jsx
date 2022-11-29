@@ -1,22 +1,17 @@
 import "./App.scss";
-import Home from "./pages/HomePage/Home";
+import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
-import Landing from "./components/Landing/Landing";
+import Landing from "./pages/Landing/Landing";
 
 
 const App = () => {
 
   return (
     <div className='app'>
-      {/* <div className="app__navigation"> */}
         <Home />
         <Nav />
-      {/* </div>
-      <div className="app__landing"> */}
         <Landing />
-      {/* </div> */}
     </div>
-    
   );
 }
 
