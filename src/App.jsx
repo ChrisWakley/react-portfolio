@@ -1,7 +1,8 @@
 import "./App.scss";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
-import Landing from "./pages/Landing/Landing";
+// import Landing from "./pages/Landing/Landing";
+import About from "./pages/About/About";
 
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
     <div className='app'>
         <Home />
         <Nav />
-        <Landing />
+        {/* <Landing /> */}
+        <About />
     </div>
   );
 }

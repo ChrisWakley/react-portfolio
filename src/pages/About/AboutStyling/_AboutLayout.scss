@@ -1,0 +1,53 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.about {
+    position: relative;
+    left: 13%;
+    height: 84vh;
+    width: 86%;
+    .about__bodyContainer {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        .about__imageOne {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 50%;
+            &--armyOne {
+                height: 80%;
+                width: 100%;
+            }
+        }
+        .about__body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 75%;
+            text-align: center;
+            margin-top: 5rem;
+            
+            &--text {
+                border: 2px solid $color-box-shadow;
+                border-radius: 5px;
+                margin-top: 2rem;
+            }
+            &--image {
+                height: 30%;
+                width: 30%;
+            }
+        }
+        .about__imageTwo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 50%;
+            &--armyTwo {
+                height: 80%;
+                width: 100%;
+            }
+        }
+    }
+}

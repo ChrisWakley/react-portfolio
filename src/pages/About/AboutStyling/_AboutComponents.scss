@@ -1,2 +1,8 @@
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
+
+.about__body--text {
+    background-color: $color-secondary;
+    font-size: 1.25rem;
+    font-family: $font-main;
+}
