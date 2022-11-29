@@ -1,0 +1,8 @@
+@use "./HomeComponents" as *;
+@use "./HomeLayout" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.home {
+    background-color: $color-body;
+}

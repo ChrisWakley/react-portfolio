@@ -1,0 +1,21 @@
+@use "./styles/typography" as *;
+@use "./styles/variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// .app__navigation {
+//     position: fixed;
+//     height: 100vh;
+//     width: 100vw;
+//     display: flex;
+//     z-index: -2;
+// }
+// .app__landing {
+//     position: absolute;
+//     height: 100vh;
+//     width: 100vw;
+//     z-index: 2;
+// }

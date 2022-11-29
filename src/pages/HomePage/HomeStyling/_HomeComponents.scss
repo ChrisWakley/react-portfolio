@@ -1,0 +1,7 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.home__text--name {
+    font-family: $font-heading;
+    text-shadow: 0.2rem 0.2rem $color-text-shadow;
+}
