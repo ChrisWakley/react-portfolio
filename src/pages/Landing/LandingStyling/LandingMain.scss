@@ -1,5 +1,5 @@
-@use "./LandingComponents";
-@use "./LandingLayout";
+@use "./LandingComponents" as *;
+@use "./LandingLayout" as *;
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
 

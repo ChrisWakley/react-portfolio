@@ -1,0 +1,8 @@
+@use "./ProjectCardComponents" as *;
+@use "./ProjectCardLayout" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.card__content {
+    background-color: $color-secondary;
+}
