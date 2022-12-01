@@ -2,7 +2,7 @@
 @use "../../../styles/variables" as *;
 
 .card__description--text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: $font-main;
   font-weight: 500;
 }
@@ -16,4 +16,8 @@
     font-size: 1.8rem;
     font-family: $font-heading;
   }
+}
+
+.card__cross {
+  background-color: $color-secondary;
 }

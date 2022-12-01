@@ -38,9 +38,12 @@
       left: 40%;
     }
     .card__description {
+      display: flex;
+      align-items: center;
       height: 60%;
       width: 90%;
       margin: 2.5rem 0;
+      text-align: center;
     }
   }
 }
