@@ -2,9 +2,10 @@
 @use "../../../styles/variables" as *;
 
 .nav {
-    position: fixed;
-    top: 0%;
-    width: 12%;
-    border-right: 0.3rem solid $color-box-shadow;
-    height: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  width: 12%;
+  border-right: 0.3rem solid $color-box-shadow;
+  height: 100%;
 }

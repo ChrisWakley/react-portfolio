@@ -1,12 +1,4 @@
 .card {
-  // position: relative;
-  // display: grid;
-  // grid-template-columns: repeat(3, minmax(0.8rem, 1fr));
-  // grid-template-rows: repeat(2, minmax(0.8rem, 1fr));
-  // column-gap: 2rem;
-  // row-gap: 2rem;
-  // height: 50vh;
-  // width: 30vw;
   .card__content {
     position: relative;
     display: flex;
@@ -14,5 +6,41 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    .card__imageContainer {
+      height: 50%;
+      width: 90%;
+      margin: 1rem 0;
+      .card__image {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .card__body {
+      height: 35%;
+      width: 90%;
+      margin-top: 1.5rem;
+      &--language {
+        height: 10%;
+        margin: 0.2rem 0 0 1rem;
+      }
+      &--name {
+        margin: 2.5rem 0 0 1rem;
+      }
+      .card__button--face {
+        position: relative;
+        margin: 0.8rem 0 0 1rem;
+      }
+    }
+
+    .card__cross {
+      position: relative;
+      top: 5%;
+      left: 40%;
+    }
+    .card__description {
+      height: 60%;
+      width: 90%;
+      margin: 2.5rem 0;
+    }
   }
 }

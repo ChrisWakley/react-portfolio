@@ -1,7 +1,15 @@
 .button {
-    height: 2rem;
-    width: 6rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.2rem;
+  height: 2rem;
+  width: 6rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.buttonLarge {
+  height: 4rem;
+  width: 10rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
 }

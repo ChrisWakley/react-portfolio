@@ -13,7 +13,7 @@ const ProjectCard = ({ name, image_url, link, language, description }) => {
   const cardFaceJSX = (
     <div className="card__content card__content--face">
       <div className="card__imageContainer">
-        <img src={image_url} alt="project" />
+        <img src={image_url} alt="project" className="card__image" />
       </div>
       <div className="card__body">
         <p className="card__body card__body--language">{language}</p>
@@ -41,7 +41,7 @@ const ProjectCard = ({ name, image_url, link, language, description }) => {
       </div>
       <div className="card__link">
         <a href={link} target="_blank" rel="noreferrer">
-          <Button buttonClass="button" buttonText="Repository Link" />
+          <Button buttonClass="buttonLarge" buttonText="Repository Link" />
         </a>
       </div>
     </div>
