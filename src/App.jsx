@@ -5,6 +5,7 @@ import Nav from "./components/Nav/Nav";
 import Projects from "./pages/Projects/Projects";
 import Landing from "./pages/Landing/Landing";
 import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
     return (
@@ -41,6 +42,18 @@ const App = () => {
                             <Home />
                             <Nav />
                             <Projects />
+                        </>
+                    }
+                />
+            </>
+            <>
+                <Route
+                    path='/contact'
+                    element={
+                        <>
+                            <Home />
+                            <Nav />
+                            <Contact />
                         </>
                     }
                 />

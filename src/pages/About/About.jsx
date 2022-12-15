@@ -1,58 +1,64 @@
 import "./AboutStyling/AboutMain.scss";
 import armyOne from "../../assets/images/armyone.jpg";
-import armyTwo from "../../assets/images/armytwo.jpg";
+import Snowboarding from "../../assets/images/Snowboarding.jpeg";
 import reme from "../../assets/images/reme.png";
 
 const About = () => {
-  return (
-    <div className="about">
-      <div className="about__bodyContainer">
-        <div className="about__imageOne">
-          <img
-            src={armyOne}
-            alt="army"
-            className="about__imageOne about__imageOne--armyOne"
-          />
+    return (
+        <div className='about'>
+            <div className='about__bodyContainer'>
+                <div className='about__imageOne'>
+                    <img
+                        src={armyOne}
+                        alt='army'
+                        className='about__imageOne about__imageOne--armyOne'
+                    />
+                </div>
+                <div className='about__body'>
+                    <p className='about__body about__body--text'>
+                        Before deciding to become a developer, i spent 10 years
+                        in the British Army working as an electronics
+                        technician. After a series of unfortunate events, i was
+                        no longer physically able to carry on in my engineering
+                        trade. Programming became an attractive option for me as
+                        I've always been interested in computing. The transition
+                        from fixing hardware to coding software was quite
+                        smooth.
+                        <br />
+                        <br />
+                        I've always had an afinity for electronics and
+                        computers, I enjoy problem solving and logical thinking
+                        so this seems like a natural transition for me.
+                        <br />
+                        <br />
+                        Aside from my military background, I'd always been
+                        hugely into adrenaline sports. I've represented the
+                        British Army in Snowboarding, Operational Shooting and
+                        Rock climbing against other nations armies at high level
+                        events. I'm also a big fan of paintballing, clay pigeon
+                        shooting, kayaking, white water rafting and cross
+                        country challenges like tough mudder. Since my shoulder
+                        injury I've had to stop doing most of those things and
+                        have instead gotten into gaming and investing a lot more
+                        time into my family life. I occasionally enjoy reading a
+                        good book as well.
+                    </p>
+                    <img
+                        src={reme}
+                        alt='remelogo'
+                        className='about__body about__body--image'
+                    />
+                </div>
+                <div className='about__imageTwo'>
+                    <img
+                        src={Snowboarding}
+                        alt='army'
+                        className='about__imageTwo about__imageTwo--armyTwo'
+                    />
+                </div>
+            </div>
         </div>
-        <div className="about__body">
-          <p className="about__body about__body--text">
-            Before deciding to become a developer, i spent 10 years in the
-            British Army working as an electronics technician. After a series of
-            unfortunate events, i was no longer physically able to carry on in
-            my engineering trade. Programming became an attractive option for me
-            as I've always been interested in computing. The transition from
-            fixing hardware to coding software was quite smooth.
-            <br />
-            <br />
-            I've always had an afinity for electronics and computers, I enjoy
-            problem solving and logical thinking so this seems like a natural
-            transition for me.
-            <br />
-            <br />
-            My duties in the military revolved heavily around maintenance and
-            repair of any and all electronic systems in use within service. I
-            was in a management position for a long time and have plenty of
-            experience when it comes to working as a team and directing and
-            managing a group, it was my responsibility to ensure new tradesmen
-            were quickly and efficiently trained to the trade standards required
-            in order for them to work in an individual capacity effectively.
-          </p>
-          <img
-            src={reme}
-            alt="remelogo"
-            className="about__body about__body--image"
-          />
-        </div>
-        <div className="about__imageTwo">
-          <img
-            src={armyTwo}
-            alt="army"
-            className="about__imageTwo about__imageTwo--armyTwo"
-          />
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default About;

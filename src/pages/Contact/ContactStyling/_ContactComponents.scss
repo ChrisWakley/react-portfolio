@@ -1,0 +1,25 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.contact {
+    &__header {
+        font-size: 4rem;
+        font-family: $font-heading;
+    }
+    &__content {
+        font-size: 2rem;
+        font-family: $font-main;
+        &--emailaddress {
+            text-decoration: underline;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        font-weight: 700;
+        color: $color-primary;
+    }
+    &__link:hover {
+        color: $color-secondary;
+        text-shadow: 0.2rem 0.2rem $color-lightText;
+    }
+}

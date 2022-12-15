@@ -54,7 +54,7 @@ const projects = [
         name: "RS3 Database",
         image_url: require("../assets/arrayImages/RS3DB.png"),
         link: "https://github.com/ChrisWakley/full-stack-front-end",
-        language: "HTML - CSS - SCSS - JavaScript - Java",
+        language: "HTML - CSS - SCSS - JavaScript - (React) - Java",
         description:
             "This was my final pproject on my Nology course, I had to create a full stack app. I created an info database on mySQL and wrote an API in Java to access and filter it. I then used React to create the front end web page which uses the API call function to populate the database into an aesthetically pleasing layout. The user has the ability to filter searches, add line entries and delete line entries. I'm still actively working on this project so it will have a lot more funcitonality once it is complete.",
     },
