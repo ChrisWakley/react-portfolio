@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cdedb717.css",
-    "main.js": "/react-portfolio/static/js/main.e15a7e68.js",
+    "main.css": "/react-portfolio/static/css/main.ad0c971a.css",
+    "main.js": "/react-portfolio/static/js/main.5f35ec13.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/reme.png": "/react-portfolio/static/media/reme.bb4a4aacaaef90632224.png",
     "static/media/RS3DB.png": "/react-portfolio/static/media/RS3DB.acd97368a3e76cdeb7ee.png",
     "static/media/armyone.jpg": "/react-portfolio/static/media/armyone.e76b4b9cb021c9942a00.jpg",
     "static/media/Portfolio.png": "/react-portfolio/static/media/Portfolio.915b96095cc480a90484.png",
     "static/media/Selfie.png": "/react-portfolio/static/media/Selfie.fa9ec0c6c65fd358d18f.png",
-    "static/media/armytwo.jpg": "/react-portfolio/static/media/armytwo.be788f7d890ea7719f21.jpg",
     "static/media/Calculator.png": "/react-portfolio/static/media/Calculator.2f3063524e278912cb75.png",
     "static/media/Snap.png": "/react-portfolio/static/media/Snap.9c525f76719766966252.png",
     "static/media/Client.png": "/react-portfolio/static/media/Client.264c970ae02724d4b2f8.png",
     "static/media/Hangman.png": "/react-portfolio/static/media/Hangman.47b0c385d5ae4f8c5290.png",
+    "static/media/Snowboarding.jpeg": "/react-portfolio/static/media/Snowboarding.efc85b9a10a4f9e51e69.jpeg",
     "static/media/logo.png": "/react-portfolio/static/media/logo.c70e69874630a8ec52a3.png",
     "index.html": "/react-portfolio/index.html",
-    "main.cdedb717.css.map": "/react-portfolio/static/css/main.cdedb717.css.map",
-    "main.e15a7e68.js.map": "/react-portfolio/static/js/main.e15a7e68.js.map",
+    "main.ad0c971a.css.map": "/react-portfolio/static/css/main.ad0c971a.css.map",
+    "main.5f35ec13.js.map": "/react-portfolio/static/js/main.5f35ec13.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdedb717.css",
-    "static/js/main.e15a7e68.js"
+    "static/css/main.ad0c971a.css",
+    "static/js/main.5f35ec13.js"
   ]
 }
