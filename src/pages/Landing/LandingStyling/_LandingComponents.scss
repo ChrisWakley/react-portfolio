@@ -3,12 +3,14 @@
 
 .landing__intro {
     &--text {
+        color: $color-text;
         font-family: $font-main;
         font-size: 2rem;
         font-weight: bold;
         text-shadow: 0.125rem 0.125rem $color-text-shadow;
     }
     &--subtext {
+        color: $color-text;
         font-family: $font-main;
         font-size: 1.2rem;
     }

@@ -5,7 +5,7 @@
     grid-template-columns: repeat(5, minmax(10px, 1fr));
     grid-template-rows: repeat(3, minmax(10px, 1fr));
     column-gap: 4rem;
-    row-gap: 1.5rem;
+    row-gap: 1.4rem;
     .techSkill__tile {
         border: 0.2rem solid $color-black;
         border-radius: 0.6rem;
@@ -26,5 +26,14 @@
             margin: 0.5rem 0;
             text-align: center;
         }
+    }
+}
+
+.techSkill__tile:hover {
+    transform: scale(1.25);
+    border: 0.2rem solid $color-lightText;
+    z-index: 2;
+    .techSkill__image {
+        transform: scale(1.1);
     }
 }

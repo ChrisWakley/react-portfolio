@@ -2,22 +2,25 @@
 @use "../../../styles/variables" as *;
 
 .card__description--text {
-  font-size: 1.2rem;
-  font-family: $font-main;
-  font-weight: 500;
+    color: $color-text;
+    font-size: 1.2rem;
+    font-family: $font-main;
+    font-weight: 500;
 }
 
 .card__body {
-  &--language {
-    font-size: 1rem;
-    font-family: $font-link;
-  }
-  &--name {
-    font-size: 1.8rem;
-    font-family: $font-heading;
-  }
+    &--language {
+        color: $color-text;
+        font-size: 1rem;
+        font-family: $font-link;
+    }
+    &--name {
+        color: $color-text;
+        font-size: 1.8rem;
+        font-family: $font-heading;
+    }
 }
 
-.card__cross {
-  background-color: $color-secondary;
+.card__cross:hover {
+    transform: scale(1.4);
 }

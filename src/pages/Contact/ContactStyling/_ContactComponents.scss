@@ -3,10 +3,12 @@
 
 .contact {
     &__header {
+        color: $color-text;
         font-size: 4rem;
         font-family: $font-heading;
     }
     &__content {
+        color: $color-text;
         font-size: 2rem;
         font-family: $font-main;
         &--emailaddress {
@@ -16,10 +18,10 @@
     &__link {
         text-decoration: none;
         font-weight: 700;
-        color: $color-primary;
+        color: $color-secondary;
     }
     &__link:hover {
         color: $color-secondary;
-        text-shadow: 0.2rem 0.2rem $color-lightText;
+        text-shadow: 0.2rem 0.2rem $color-text-shadow;
     }
 }

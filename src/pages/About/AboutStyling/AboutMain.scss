@@ -2,7 +2,3 @@
 @use "./AboutLayout" as *;
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
-
-.about {
-  background-color: $color-primary;
-}

@@ -1,49 +1,55 @@
 .card {
-  .card__content {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    .card__imageContainer {
-      height: 50%;
-      width: 90%;
-      margin: 1rem 0;
-      .card__image {
+    .card__content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         height: 100%;
         width: 100%;
-      }
-    }
-    .card__body {
-      height: 35%;
-      width: 90%;
-      margin-top: 1.5rem;
-      &--language {
-        height: 10%;
-        margin: 0.2rem 0 0 1rem;
-      }
-      &--name {
-        margin: 2.5rem 0 0 1rem;
-      }
-      .card__button--face {
-        position: relative;
-        margin: 0.8rem 0 0 1rem;
-      }
-    }
+        .card__imageContainer {
+            height: 60%;
+            width: 90%;
+            margin: 1rem 0;
+            .card__image {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .card__body {
+            height: 28%;
+            width: 90%;
+            margin-top: 1rem;
+            &--language {
+                height: 10%;
+                margin: 0.2rem 0 0 1rem;
+            }
+            &--name {
+                margin: 0.5rem 0 0 1rem;
+            }
+            .card__button--face {
+                position: relative;
+                margin: 0 0 0 1rem;
+            }
+            .card__link {
+                position: relative;
+                margin: 0 0 0 1rem;
+            }
+        }
 
-    .card__cross {
-      position: relative;
-      top: 5%;
-      left: 40%;
+        .card__cross {
+            position: relative;
+            top: 5%;
+            left: 40%;
+            height: 1.2rem;
+            width: 1.2rem;
+        }
+        .card__description {
+            display: flex;
+            align-items: center;
+            height: 60%;
+            width: 90%;
+            margin: 0.4rem 0;
+            text-align: center;
+        }
     }
-    .card__description {
-      display: flex;
-      align-items: center;
-      height: 60%;
-      width: 90%;
-      margin: 2.5rem 0;
-      text-align: center;
-    }
-  }
 }

@@ -2,5 +2,6 @@
 @use "../../../styles/variables" as *;
 
 .projects__header--text {
-  font-family: $font-heading;
+    color: $color-text;
+    font-family: $font-heading;
 }
