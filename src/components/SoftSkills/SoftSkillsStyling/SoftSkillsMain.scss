@@ -1,7 +1,4 @@
+@use "./SoftSkillsComponents" as *;
+@use "./SoftSkillsLayout" as *;
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
-
-.skills__header {
-    font-size: 1.4rem;
-    font-family: $font-heading;
-}

@@ -6,6 +6,7 @@ import Projects from "./pages/Projects/Projects";
 import Landing from "./pages/Landing/Landing";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import Skills from "./pages/Skills/Skills";
 
 const App = () => {
     return (
@@ -58,14 +59,17 @@ const App = () => {
                     }
                 />
             </>
-
-            {/* <div className='app'>
-                <Home />
-                <Nav />
-                <Landing />
-                <About />
-                <Projects />
-            </div> */}
+            <Route
+                path='/skills'
+                element={
+                    <>
+                        <Home />
+                        <Nav />
+                        <Skills />
+                    </>
+                }
+            />
+            <></>
         </Routes>
     );
 };

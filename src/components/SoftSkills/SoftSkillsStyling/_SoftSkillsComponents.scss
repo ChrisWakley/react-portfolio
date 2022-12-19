@@ -1,0 +1,22 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.softSkills {
+    .softSkill__tile {
+        opacity: 65%;
+        .softSkill__image {
+            opacity: 75%;
+        }
+        .softSkill__name {
+            color: $color-primary;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.softSkill__tile:hover {
+    opacity: 100%;
+    .softSkill__image {
+        opacity: 92%;
+    }
+}

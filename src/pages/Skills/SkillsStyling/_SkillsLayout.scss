@@ -1,0 +1,13 @@
+.skills {
+    position: relative;
+    left: 12%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__header {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}

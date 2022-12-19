@@ -1,0 +1,30 @@
+@use "../../../styles/variables" as *;
+
+.softSkills {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(10px, 1fr));
+    grid-template-rows: repeat(3, minmax(10px, 1fr));
+    column-gap: 4rem;
+    row-gap: 1.5rem;
+    .softSkill__tile {
+        border: 0.2rem solid $color-black;
+        border-radius: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 9.2rem;
+        width: 10rem;
+        .softSkill__image {
+            position: relative;
+            height: 5rem;
+            width: 5rem;
+            margin-top: 0.4rem;
+        }
+        .softSkill__name {
+            position: relative;
+            z-index: 1;
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+    }
+}

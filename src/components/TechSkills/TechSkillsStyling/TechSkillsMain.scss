@@ -1,7 +1,4 @@
+@use "./TechSkillsComponents" as *;
+@use "./TechSkillsLayout" as *;
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
-
-.skills__header {
-    font-size: 1.4rem;
-    font-family: $font-heading;
-}

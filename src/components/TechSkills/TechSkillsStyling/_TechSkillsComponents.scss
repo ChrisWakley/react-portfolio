@@ -1,0 +1,22 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.techSkills {
+    .techSkill__tile {
+        opacity: 65%;
+        .techSkill__image {
+            opacity: 75%;
+        }
+        .techSkill__name {
+            color: $color-primary;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.techSkill__tile:hover {
+    opacity: 100%;
+    .techSkill__image {
+        opacity: 92%;
+    }
+}
