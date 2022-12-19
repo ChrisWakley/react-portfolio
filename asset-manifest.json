@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8c777f22.css",
-    "main.js": "/react-portfolio/static/js/main.6c0b509e.js",
+    "main.css": "/react-portfolio/static/css/main.f20cf79e.css",
+    "main.js": "/react-portfolio/static/js/main.f0336044.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/reme.png": "/react-portfolio/static/media/reme.bb4a4aacaaef90632224.png",
     "static/media/RS3DB.png": "/react-portfolio/static/media/RS3DB.acd97368a3e76cdeb7ee.png",
     "static/media/armyone.jpg": "/react-portfolio/static/media/armyone.e76b4b9cb021c9942a00.jpg",
     "static/media/Portfolio.png": "/react-portfolio/static/media/Portfolio.915b96095cc480a90484.png",
     "static/media/Selfie.png": "/react-portfolio/static/media/Selfie.fa9ec0c6c65fd358d18f.png",
+    "static/media/armyFour.jpg": "/react-portfolio/static/media/armyFour.edb90377b6921972544b.jpg",
     "static/media/Calculator.png": "/react-portfolio/static/media/Calculator.2f3063524e278912cb75.png",
     "static/media/Snap.png": "/react-portfolio/static/media/Snap.9c525f76719766966252.png",
     "static/media/Client.png": "/react-portfolio/static/media/Client.264c970ae02724d4b2f8.png",
     "static/media/Hangman.png": "/react-portfolio/static/media/Hangman.47b0c385d5ae4f8c5290.png",
     "static/media/Snowboarding.jpeg": "/react-portfolio/static/media/Snowboarding.efc85b9a10a4f9e51e69.jpeg",
+    "static/media/armyThree.jpg": "/react-portfolio/static/media/armyThree.0b856c09ca39ab41ad2d.jpg",
     "static/media/logical.png": "/react-portfolio/static/media/logical.bfa50e61e4832228766f.png",
     "static/media/leadership.png": "/react-portfolio/static/media/leadership.e9f91aa8d4706f76f9d5.png",
+    "static/media/white-cross.png": "/react-portfolio/static/media/white-cross.d35b5950f7b4140c3f29.png",
     "static/media/discipline.png": "/react-portfolio/static/media/discipline.181cdc91de751b12eec6.png",
     "static/media/timekeeping.png": "/react-portfolio/static/media/timekeeping.39abe735c8c2c33d2cae.png",
     "static/media/react.png": "/react-portfolio/static/media/react.35639ed930462bfcd544.png",
@@ -45,12 +48,12 @@
     "static/media/word.png": "/react-portfolio/static/media/word.3520590ca5c0502f023d.png",
     "static/media/powerpoint.png": "/react-portfolio/static/media/powerpoint.d292af7cfb908a435b94.png",
     "index.html": "/react-portfolio/index.html",
-    "main.8c777f22.css.map": "/react-portfolio/static/css/main.8c777f22.css.map",
-    "main.6c0b509e.js.map": "/react-portfolio/static/js/main.6c0b509e.js.map",
+    "main.f20cf79e.css.map": "/react-portfolio/static/css/main.f20cf79e.css.map",
+    "main.f0336044.js.map": "/react-portfolio/static/js/main.f0336044.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c777f22.css",
-    "static/js/main.6c0b509e.js"
+    "static/css/main.f20cf79e.css",
+    "static/js/main.f0336044.js"
   ]
 }
