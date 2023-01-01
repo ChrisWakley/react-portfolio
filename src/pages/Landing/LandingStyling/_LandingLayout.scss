@@ -17,7 +17,11 @@
             margin: 0.6rem 0;
             width: 100%;
         }
-        &--subtext {
+        &--subtextTop {
+            margin: 0.3rem 0;
+            width: 100%;
+        }
+        &--subtextBottom {
             margin: 0.3rem 0;
             width: 100%;
         }
@@ -28,6 +32,26 @@
         &--image {
             height: 90%;
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .landing {
+        left: 0;
+        top: 20vh;
+        height: 80vh;
+        width: 100%;
+        .landing__intro {
+            left: 0;
+            width: 100%;
+            align-items: center;
+            &--subtextTop {
+                margin-top: 5rem;
+            }
+        }
+        .landing__imageContainer {
+            display: none;
         }
     }
 }

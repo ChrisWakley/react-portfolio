@@ -28,8 +28,30 @@
         .home__text {
             height: 4rem;
             margin-top: 0.25rem;
-            &--name {
-                font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .home {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        &__header {
+            margin-bottom: 0.5rem;
+            height: 95%;
+            .home__logo {
+                height: 3rem;
+                width: 3rem;
+                margin-top: 0.4rem;
+                &--image {
+                    height: 2rem;
+                    width: 2rem;
+                }
+            }
+            .home__text {
+                height: 3rem;
             }
         }
     }

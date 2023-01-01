@@ -12,10 +12,10 @@ const Landing = () => {
                 <p className='landing__intro landing__intro--text'>
                     Junior Software Engineer.
                 </p>
-                <p className='landing__intro landing__intro--subtext'>
+                <p className='landing__intro landing__intro--subtextTop'>
                     In a previous life:
                 </p>
-                <p className='landing__intro landing__intro--subtext'>
+                <p className='landing__intro landing__intro--subtextBottom'>
                     Electrical and electronic Engineering.
                 </p>
             </div>

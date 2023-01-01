@@ -1,0 +1,24 @@
+@use "../../../styles/variables" as *;
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    &__image {
+        box-shadow: 0 0.7rem 1.4rem $color-box-shadow;
+        display: block;
+        width: 80%;
+        height: 100%;
+        margin: 0 1rem;
+    }
+    &__arrow {
+        display: block;
+        height: 3rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

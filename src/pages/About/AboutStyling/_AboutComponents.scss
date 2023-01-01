@@ -3,8 +3,13 @@
 
 .about__body--text {
     color: $color-text;
-    // background-color: $color-nav;
     font-size: 1.25rem;
     font-family: $font-main;
     color: $color-lightText;
+}
+
+@media (max-width: 62rem) {
+    .about__body--text {
+        font-size: 1.1rem;
+    }
 }

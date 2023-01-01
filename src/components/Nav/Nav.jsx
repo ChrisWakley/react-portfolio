@@ -17,12 +17,12 @@ const Nav = () => {
             <NavLink to={"/skills"} className='nav__link nav__link--skills'>
                 Skills
             </NavLink>
-            <NavLink
+            {/* <NavLink
                 to={"/experience"}
                 className='nav__link nav__link--experience'
             >
                 Experience
-            </NavLink>
+            </NavLink> */}
             <NavLink to={"/contact"} className='nav__link nav__link--contact'>
                 Contact Me
             </NavLink>

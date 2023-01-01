@@ -2,7 +2,9 @@ const projects = [
     {
         id: 1,
         name: "Initial Portfolio",
-        image_url: require("../assets/arrayImages/Portfolio.png"),
+        image_url1: require("../assets/arrayImages/Portfolio.png"),
+        image_url2: require("../assets/arrayImages/Portfolio2.png"),
+        image_url3: require("../assets/arrayImages/Portfolio3.png"),
         link: "https://github.com/ChrisWakley/web-project-portfolio",
         language: "HTML - CSS - SCSS",
         description:
@@ -12,7 +14,9 @@ const projects = [
     {
         id: 2,
         name: "Calculator",
-        image_url: require("../assets/arrayImages/Calculator.png"),
+        image_url1: require("../assets/arrayImages/Calculator.png"),
+        image_url2: require("../assets/arrayImages/Calculator2.png"),
+        image_url3: require("../assets/arrayImages/Calculator3.png"),
         link: "https://github.com/ChrisWakley/calculator",
         language: "HTML - CSS - SCSS - JavaScript",
         description:
@@ -22,7 +26,9 @@ const projects = [
     {
         id: 3,
         name: "Client Project",
-        image_url: require("../assets/arrayImages/Client.png"),
+        image_url1: require("../assets/arrayImages/Client.png"),
+        image_url2: require("../assets/arrayImages/Client2.png"),
+        image_url3: require("../assets/arrayImages/Client3.png"),
         link: "https://github.com/nology-tech/quadra-client-project",
         language: "HTML - SCSS - JavaScript - (React)",
         description:
@@ -32,7 +38,9 @@ const projects = [
     {
         id: 4,
         name: "Hangman",
-        image_url: require("../assets/arrayImages/Hangman.png"),
+        image_url1: require("../assets/arrayImages/Hangman.png"),
+        image_url2: require("../assets/arrayImages/Hangman2.png"),
+        image_url3: require("../assets/arrayImages/Hangman3.png"),
         link: "https://github.com/ChrisWakley/HangMan",
         language: "Java",
         description:
@@ -42,7 +50,9 @@ const projects = [
     {
         id: 5,
         name: "Snap",
-        image_url: require("../assets/arrayImages/Snap.png"),
+        image_url1: require("../assets/arrayImages/Snap.png"),
+        image_url2: require("../assets/arrayImages/Snap2.png"),
+        image_url3: require("../assets/arrayImages/Snap3.png"),
         link: "https://github.com/ChrisWakley/SnapGame",
         language: "Java",
         description:
@@ -52,7 +62,9 @@ const projects = [
     {
         id: 6,
         name: "RS3 Database",
-        image_url: require("../assets/arrayImages/RS3DB.png"),
+        image_url1: require("../assets/arrayImages/RS3DB.png"),
+        image_url2: require("../assets/arrayImages/RS3DB2.png"),
+        image_url3: require("../assets/arrayImages/RS3DB3.png"),
         link: "https://github.com/ChrisWakley/full-stack-front-end",
         language: "HTML - CSS - SCSS - JavaScript - (React) - Java",
         description:

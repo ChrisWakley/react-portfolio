@@ -108,8 +108,25 @@
             text-align: center;
             margin-top: 5rem;
             &--text {
-                border-radius: 1rem;
                 margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .about {
+        left: 0;
+        top: 20vh;
+        height: 80vh;
+        width: 100%;
+        .about__bodyContainer {
+            .about__imageContainer {
+                display: none;
+            }
+            .about__body {
+                width: 90%;
+                margin: 1rem 0 0 1rem;
             }
         }
     }

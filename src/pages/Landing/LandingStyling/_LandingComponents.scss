@@ -9,9 +9,28 @@
         font-weight: bold;
         text-shadow: 0.125rem 0.125rem $color-text-shadow;
     }
-    &--subtext {
+    &--subtextTop {
         color: $color-text;
         font-family: $font-main;
         font-size: 1.2rem;
+    }
+    &--subtextBottom {
+        color: $color-text;
+        font-family: $font-main;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 62rem) {
+    .landing__intro {
+        &--text {
+            font-size: 1.4rem;
+        }
+        &--subtextTop {
+            font-size: 1rem;
+        }
+        &--subtextBottom {
+            font-size: 1rem;
+        }
     }
 }

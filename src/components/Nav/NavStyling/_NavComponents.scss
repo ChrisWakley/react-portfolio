@@ -15,3 +15,12 @@
         color: $color-focus;
     }
 }
+
+@media (max-width: 62rem) {
+    .nav {
+        &__link {
+            font-size: 1rem;
+            font-weight: 200;
+        }
+    }
+}

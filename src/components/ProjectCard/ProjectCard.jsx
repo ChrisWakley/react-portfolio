@@ -1,20 +1,31 @@
 import "./ProjectCardStyling/ProjectCardMain.scss";
 import React, { useState } from "react";
 import Button from "../Button/Button";
-// import BlackCross from "../../assets/images/black-cross.png";
 import WhiteCross from "../../assets/images/white-cross.png";
+import Carousel from "../Carousel/Carousel";
 
-const ProjectCard = ({ name, image_url, link, language, description }) => {
+const ProjectCard = ({
+    name,
+    image_url1,
+    image_url2,
+    image_url3,
+    link,
+    language,
+    description,
+}) => {
     const [showMore, setShowMore] = useState(true);
 
     const handleClick = () => {
         setShowMore(!showMore);
     };
 
+    const projectImages = [image_url1, image_url2, image_url3];
+
     const cardFaceJSX = (
         <div className='card__content card__content--face'>
             <div className='card__imageContainer'>
-                <img src={image_url} alt='project' className='card__image' />
+                {/* <img src={image_url1} alt='project' className='card__image' /> */}
+                <Carousel imageArr={projectImages} />
             </div>
             <div className='card__body'>
                 <p className='card__body card__body--language'>{language}</p>

@@ -13,3 +13,21 @@
     border-right: 0.3rem solid $color-box-shadow;
     height: 100%;
 }
+
+@media (max-width: 62rem) {
+    .nav {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+        top: 15vh;
+        width: 100%;
+        border-bottom: 0.3rem solid $color-box-shadow;
+        height: 5vh;
+        &__link {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+    }
+}
