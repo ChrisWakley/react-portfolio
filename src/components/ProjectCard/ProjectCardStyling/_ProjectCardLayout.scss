@@ -16,6 +16,10 @@
             }
         }
         .card__body {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-left: 11rem;
             height: 28%;
             width: 90%;
             margin-top: 1rem;
@@ -47,9 +51,43 @@
             display: flex;
             align-items: center;
             height: 60%;
-            width: 90%;
+            width: 80%;
             margin: 0.4rem 0;
             text-align: center;
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .card {
+        .card__content {
+            .card__imageContainer {
+                height: 15rem;
+                width: 80%;
+                margin: 0.3rem 2rem 0.3rem 0.3rem;
+                .card__image {
+                    height: 80%;
+                    width: 80%;
+                }
+            }
+            .card__body {
+                height: 6rem;
+                margin-left: 2rem;
+                &--language {
+                    margin: 0.6rem 0 0 2rem;
+                }
+                .card__button--face {
+                    position: fixed;
+                    bottom: 5%;
+                }
+                .card__link {
+                    position: fixed;
+                    bottom: 5%;
+                }
+            }
+            .card__description {
+                height: 15rem;
+            }
         }
     }
 }

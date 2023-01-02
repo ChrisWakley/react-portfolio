@@ -24,3 +24,17 @@
 .card__cross:hover {
     transform: scale(1.4);
 }
+
+@media (max-width: 62rem) {
+    .card__description--text {
+        font-size: 0.8rem;
+    }
+    .card__body {
+        &--language {
+            font-size: 0.8rem;
+        }
+        &--name {
+            font-size: 1.2rem;
+        }
+    }
+}

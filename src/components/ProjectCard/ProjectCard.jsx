@@ -24,7 +24,6 @@ const ProjectCard = ({
     const cardFaceJSX = (
         <div className='card__content card__content--face'>
             <div className='card__imageContainer'>
-                {/* <img src={image_url1} alt='project' className='card__image' /> */}
                 <Carousel imageArr={projectImages} />
             </div>
             <div className='card__body'>

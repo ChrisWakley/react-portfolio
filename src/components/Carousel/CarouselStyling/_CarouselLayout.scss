@@ -6,7 +6,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 2rem;
     &__image {
         box-shadow: 0 0.7rem 1.4rem $color-box-shadow;
         display: block;
@@ -19,6 +18,28 @@
         height: 3rem;
         &:hover {
             cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .carousel {
+        width: 85%;
+        &__image {
+            position: fixed;
+            left: 20%;
+            width: 52%;
+            height: 40%;
+        }
+        &__arrow {
+            &--left {
+                position: fixed;
+                left: 15%;
+            }
+            &--right {
+                position: fixed;
+                right: 15%;
+            }
         }
     }
 }
