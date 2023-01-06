@@ -37,3 +37,20 @@
         transform: scale(1.1);
     }
 }
+
+@media (max-width: 43rem) {
+    .softSkills {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(10px, 1fr));
+        grid-template-rows: repeat(5, minmax(10px, 1fr));
+        column-gap: 2rem;
+        row-gap: 1rem;
+        .softSkill__tile {
+            width: 6rem;
+        }
+    }
+    .softSkill__tile:hover {
+        transform: scale(1);
+        z-index: 0;
+    }
+}

@@ -20,3 +20,13 @@
         opacity: 92%;
     }
 }
+
+@media (max-width: 43rem) {
+    .techSkills {
+        .techSkill__tile {
+            .techSkill__name {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

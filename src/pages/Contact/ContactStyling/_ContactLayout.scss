@@ -23,3 +23,29 @@
         }
     }
 }
+
+@media (max-width: 43rem) {
+    .contact {
+        left: 0;
+        top: 20vh;
+        height: 80vh;
+        width: 100%;
+        &__header {
+            margin: 4rem 0 0 4rem;
+        }
+        &__content {
+            margin: 1.5rem 0 0 2rem;
+            &--email {
+                margin-bottom: 2rem;
+            }
+        }
+        &__link {
+            &--github {
+                margin: 0 2rem;
+            }
+            &--linkedin {
+                margin: 0 2rem;
+            }
+        }
+    }
+}

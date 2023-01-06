@@ -11,3 +11,11 @@
         margin: 1rem 0;
     }
 }
+
+@media (max-width: 43rem) {
+    .skills {
+        left: 0;
+        top: 20vh;
+        width: 100%;
+    }
+}

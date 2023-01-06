@@ -31,7 +31,7 @@ const ProjectCard = ({
                 <h1 className='card__body card__body--name'> {name} </h1>
                 <div className='card__button--face'>
                     <Button
-                        buttonClass='buttonLarge'
+                        buttonClass='button'
                         buttonText='See More'
                         handleClick={handleClick}
                     />
@@ -56,7 +56,7 @@ const ProjectCard = ({
                 <div className='card__link'>
                     <a href={link} target='_blank' rel='noreferrer'>
                         <Button
-                            buttonClass='buttonLarge'
+                            buttonClass='button'
                             buttonText='Repository Link'
                         />
                     </a>

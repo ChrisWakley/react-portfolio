@@ -25,3 +25,14 @@
         text-shadow: 0.2rem 0.2rem $color-text-shadow;
     }
 }
+
+@media (max-width: 43rem) {
+    .contact {
+        &__header {
+            font-size: 2rem;
+        }
+        &__content {
+            font-size: 1.4rem;
+        }
+    }
+}

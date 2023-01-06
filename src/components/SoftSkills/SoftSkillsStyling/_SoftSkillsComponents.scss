@@ -20,3 +20,13 @@
         opacity: 92%;
     }
 }
+
+@media (max-width: 43rem) {
+    .softSkills {
+        .softSkill__tile {
+            .softSkill__name {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

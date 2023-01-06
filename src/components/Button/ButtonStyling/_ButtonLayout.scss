@@ -1,15 +1,14 @@
 .button {
-    height: 2rem;
-    width: 6rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.2rem;
-}
-
-.buttonLarge {
     height: 4rem;
     width: 10rem;
     cursor: pointer;
     border: none;
     border-radius: 0.4rem;
+}
+
+@media (max-width: 43rem) {
+    .button {
+        height: 3rem;
+        width: 6rem;
+    }
 }
