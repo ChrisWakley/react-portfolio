@@ -34,9 +34,15 @@
                 position: relative;
                 margin: 0 0 0 1rem;
             }
-            .card__link {
-                position: relative;
-                margin: 0 0 0 1rem;
+            .card__buttons {
+                display: flex;
+                justify-content: left;
+                .card__link {
+                    margin: 0 0 0 1rem;
+                }
+                .card__live {
+                    margin: 0 0 0 11rem;
+                }
             }
         }
 
@@ -87,6 +93,25 @@
             }
             .card__description {
                 height: 15rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 30rem) {
+    .card {
+        .card__content {
+            .card__body {
+                margin-top: 2rem;
+                &--language {
+                    margin: 2rem 0 0 0.5rem;
+                }
+                &--name {
+                    margin: 2rem 0 0 0.5rem;
+                }
+            }
+            .card__description {
+                margin-bottom: -1rem;
             }
         }
     }

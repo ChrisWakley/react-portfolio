@@ -12,6 +12,7 @@ const ProjectCard = ({
     link,
     language,
     description,
+    livesite,
 }) => {
     const [showMore, setShowMore] = useState(true);
 
@@ -53,13 +54,25 @@ const ProjectCard = ({
             <div className='card__body'>
                 <p className='card__body card__body--language'>{language}</p>
                 <h1 className='card__body card__body--name'> {name} </h1>
-                <div className='card__link'>
-                    <a href={link} target='_blank' rel='noreferrer'>
-                        <Button
-                            buttonClass='button'
-                            buttonText='Repository Link'
-                        />
-                    </a>
+                <div className='card__buttons'>
+                    <div className='card__link'>
+                        <a href={link} target='_blank' rel='noreferrer'>
+                            <Button
+                                buttonClass='button'
+                                buttonText='Repository Link'
+                            />
+                        </a>
+                    </div>
+                    <div className='card__live'>
+                        {livesite ? (
+                            <a href={livesite} target='_blank' rel='noreferrer'>
+                                <Button
+                                    buttonClass='button'
+                                    buttonText='Live Site'
+                                />
+                            </a>
+                        ) : null}
+                    </div>
                 </div>
             </div>
         </div>

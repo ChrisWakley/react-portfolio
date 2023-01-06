@@ -7,6 +7,9 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 1rem;
+        // &--text {
+        //     margin-top: 0.3rem;
+        // }
     }
     .projects__container {
         position: relative;
@@ -44,4 +47,7 @@
             width: 95%;
         }
     }
+}
+
+@media (max-width: 30rem) {
 }

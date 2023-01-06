@@ -16,7 +16,15 @@
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 768) {
+    .nav {
+        &__link {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 375px) {
     .nav {
         &__link {
             font-size: 1rem;

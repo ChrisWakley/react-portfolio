@@ -14,10 +14,30 @@
     height: 100%;
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1024px) {
     .nav {
-        position: fixed;
-        display: flex;
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        z-index: 1;
+        top: 12.5vh;
+        width: 100%;
+        border-bottom: 0.3rem solid $color-box-shadow;
+        height: 3.5vh;
+        &__link {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .nav {
         flex-direction: row;
         z-index: 1;
         top: 15vh;
