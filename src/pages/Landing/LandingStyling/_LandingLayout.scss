@@ -8,17 +8,17 @@
     .landing__intro {
         display: flex;
         position: relative;
-        left: 15%;
+        left: 14%;
         width: 40%;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
         &--text {
             margin: 0.6rem 0;
             width: 100%;
         }
         &--subtextTop {
-            margin: 0.3rem 0;
+            margin-top: 5rem;
             width: 100%;
         }
         &--subtextBottom {
@@ -30,8 +30,68 @@
         height: 90%;
         width: 100%;
         &--image {
-            height: 90%;
+            height: 100%;
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .landing {
+        height: 78vh;
+        margin-top: 2rem;
+        .landing__intro {
+            left: 10%;
+            top: 3%;
+            &--text {
+                margin: 0.5rem 0;
+            }
+            &--subtextTop {
+                margin-top: 2.5rem;
+            }
+            &--subtextBottom {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .landing {
+        height: 79vh;
+        margin-top: 2rem;
+        .landing__intro {
+            left: 10%;
+            top: 3%;
+            &--text {
+                margin: 0.5rem 0;
+            }
+            &--subtextTop {
+                margin-top: 2.5rem;
+            }
+            &--subtextBottom {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .landing {
+        height: 71vh;
+        margin-top: 3rem;
+        .landing__intro {
+            left: 12%;
+            top: 5%;
+            &--text {
+                margin: 0.5rem 0;
+            }
+            &--subtextTop {
+                margin-top: 2.5rem;
+            }
+            &--subtextBottom {
+                margin: 1rem 0;
+            }
         }
     }
 }
@@ -42,7 +102,7 @@
         width: 100%;
         height: 84.5vh;
         .landing__intro {
-            left: 5%;
+            left: 4%;
             width: 70%;
             margin-bottom: 0;
             &--text {
@@ -76,7 +136,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .landing {
         left: 0;
         top: 20vh;
@@ -84,6 +144,8 @@
         width: 100%;
         .landing__intro {
             left: 0;
+            position: relative;
+            top: -5%;
             width: 100%;
             align-items: center;
             &--subtextTop {

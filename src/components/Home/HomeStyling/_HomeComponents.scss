@@ -8,6 +8,12 @@
     font-size: 3rem;
 }
 
+@media (max-width: 1440px) {
+    .home__text--name {
+        font-size: 2.6rem;
+    }
+}
+
 @media (max-width: 1024px) {
     .home__text--name {
         font-size: 2.8rem;
@@ -20,7 +26,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .home__text--name {
         font-size: 1.5rem;
     }

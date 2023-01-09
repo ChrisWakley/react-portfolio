@@ -21,6 +21,20 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .landing__intro {
+        &--text {
+            font-size: 1.5rem;
+        }
+        &--subtextTop {
+            font-size: 1.2rem;
+        }
+        &--subtextBottom {
+            font-size: 1.2rem;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .landing__intro {
         &--text {
@@ -35,7 +49,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .landing__intro {
         &--text {
             font-size: 1.4rem;
