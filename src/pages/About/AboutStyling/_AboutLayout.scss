@@ -4,6 +4,7 @@
 .about {
     position: relative;
     left: 13%;
+    top: 15vh;
     height: 84vh;
     width: 86%;
     .about__bodyContainer {
@@ -159,6 +160,7 @@
 
 @media (max-width: 1280px) {
     .about {
+        top: 13.5vh;
         .about__bodyContainer {
             .about__imageOne {
                 .about__reme {
@@ -202,6 +204,7 @@
 
 @media (max-width: 1024px) {
     .about {
+        top: 17.5vh;
         left: 15%;
         height: 80vh;
         width: 83%;
@@ -279,6 +282,7 @@
 @media (max-width: 768px) {
     .about {
         left: 0;
+        top: 12.5vh;
         width: 100%;
         .about__bodyContainer {
             .about__imageContainer {

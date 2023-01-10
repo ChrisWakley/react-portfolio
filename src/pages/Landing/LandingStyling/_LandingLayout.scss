@@ -3,6 +3,7 @@
     justify-content: center;
     position: relative;
     left: 12%;
+    top: 15vh;
     height: 84vh;
     width: 88%;
     .landing__intro {
@@ -12,7 +13,6 @@
         width: 40%;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 2rem;
         &--text {
             margin: 0.6rem 0;
             width: 100%;
@@ -38,6 +38,7 @@
 
 @media (max-width: 1440px) {
     .landing {
+        top: 12.5vh;
         height: 78vh;
         .landing__intro {
             left: 10%;
@@ -46,10 +47,7 @@
                 margin: 0.5rem 0;
             }
             &--subtextTop {
-                margin-top: 2.5rem;
-            }
-            &--subtextBottom {
-                margin: 1rem 0;
+                margin-top: 2rem;
             }
         }
     }
@@ -59,16 +57,8 @@
     .landing {
         height: 79vh;
         .landing__intro {
-            left: 10%;
-            top: 3%;
-            &--text {
-                margin: 0.5rem 0;
-            }
             &--subtextTop {
                 margin-top: 2.5rem;
-            }
-            &--subtextBottom {
-                margin: 1rem 0;
             }
         }
     }
@@ -76,18 +66,13 @@
 
 @media (max-width: 1024px) {
     .landing {
+        top: 18vh;
         height: 71vh;
         .landing__intro {
             left: 12%;
             top: 5%;
-            &--text {
-                margin: 0.5rem 0;
-            }
             &--subtextTop {
-                margin-top: 2.5rem;
-            }
-            &--subtextBottom {
-                margin: 1rem 0;
+                margin-top: 2rem;
             }
         }
     }
@@ -96,8 +81,9 @@
 @media (max-width: 768px) {
     .landing {
         left: 0;
-        width: 100%;
+        top: 8vh;
         height: 78.5vh;
+        width: 100%;
         .landing__intro {
             left: 4%;
             width: 70%;
@@ -135,10 +121,8 @@
 
 @media (max-width: 385px) {
     .landing {
-        left: 0;
         top: 20vh;
         height: 80vh;
-        width: 100%;
         .landing__intro {
             left: 0;
             position: relative;

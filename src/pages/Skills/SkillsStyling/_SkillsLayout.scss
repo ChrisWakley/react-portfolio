@@ -1,6 +1,7 @@
 .skills {
     position: relative;
     left: 12%;
+    top: 14vh;
     width: 88%;
     display: flex;
     flex-direction: column;
@@ -12,10 +13,44 @@
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1440px) {
+    .skills {
+        top: 15vh;
+        &__header {
+            margin: 2rem 0;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .skills {
+        &__header {
+            margin: 1.5rem 0;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .skills {
+        top: 18vh;
+        left: 12%;
+        width: 88%;
+        &__header {
+            margin: 1rem 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
     .skills {
         left: 0;
-        top: 20vh;
+        top: 16vh;
         width: 100%;
+    }
+}
+
+@media (max-width: 385px) {
+    .skills {
+        top: 20vh;
     }
 }

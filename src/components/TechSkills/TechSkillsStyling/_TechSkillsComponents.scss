@@ -21,7 +21,17 @@
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 768px) {
+    .techSkills {
+        .techSkill__tile {
+            .techSkill__name {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 385px) {
     .techSkills {
         .techSkill__tile {
             .techSkill__name {

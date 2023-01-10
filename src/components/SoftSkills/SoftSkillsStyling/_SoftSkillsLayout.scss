@@ -32,13 +32,61 @@
 .softSkill__tile:hover {
     transform: scale(1.25);
     border: 0.2rem solid $color-lightText;
-    z-index: 2;
     .softSkill__image {
         transform: scale(1.1);
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1280px) {
+    .softSkills {
+        margin-bottom: 1.8rem;
+        column-gap: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .softSkills {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(10px, 1fr));
+        grid-template-rows: repeat(5, minmax(10px, 1fr));
+        column-gap: 3rem;
+        row-gap: 3rem;
+        .softSkill__tile {
+            height: 10rem;
+            width: 12rem;
+            .softSkill__image {
+                margin-top: 0.8rem;
+            }
+            .softSkill__name {
+                margin: 0.8rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .softSkills {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(10px, 1fr));
+        grid-template-rows: repeat(5, minmax(10px, 1fr));
+        column-gap: 3rem;
+        row-gap: 1.5rem;
+        .softSkill__tile {
+            height: 8rem;
+            width: 10rem;
+            .softSkill__image {
+                height: 5rem;
+                width: 5rem;
+                margin-top: 0.4rem;
+            }
+            .softSkill__name {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 385px) {
     .softSkills {
         display: grid;
         grid-template-columns: repeat(3, minmax(10px, 1fr));

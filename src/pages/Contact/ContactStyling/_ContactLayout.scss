@@ -1,7 +1,8 @@
 .contact {
     position: relative;
-    left: 12%;
-    width: 88%;
+    left: 20%;
+    top: 15vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -24,28 +25,46 @@
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1440px) {
     .contact {
-        left: 0;
+        top: 15vh;
+        left: 25%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .contact {
+        left: 20%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        top: 10vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        top: 10vh;
+        left: 5%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 385px) {
+    .contact {
         top: 20vh;
+        left: 0;
         height: 80vh;
         width: 100%;
         &__header {
             margin: 4rem 0 0 4rem;
         }
         &__content {
-            margin: 1.5rem 0 0 2rem;
-            &--email {
-                margin-bottom: 2rem;
-            }
-        }
-        &__link {
-            &--github {
-                margin: 0 2rem;
-            }
-            &--linkedin {
-                margin: 0 2rem;
-            }
+            margin: 2.5rem 0 0 2rem;
         }
     }
 }

@@ -21,7 +21,17 @@
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 768px) {
+    .softSkills {
+        .softSkill__tile {
+            .softSkill__name {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 385px) {
     .softSkills {
         .softSkill__tile {
             .softSkill__name {
