@@ -59,7 +59,7 @@ const ProjectCard = ({
                         <a href={link} target='_blank' rel='noreferrer'>
                             <Button
                                 buttonClass='button'
-                                buttonText='Repository Link'
+                                buttonText='Repository'
                             />
                         </a>
                     </div>

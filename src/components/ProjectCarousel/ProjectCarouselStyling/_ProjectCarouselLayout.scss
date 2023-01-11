@@ -1,11 +1,13 @@
 @use "../../../styles/variables" as *;
 
 .projectCarousel {
+    position: relative;
+    left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 93%;
     &__body {
         display: block;
         width: 80%;
@@ -15,14 +17,5 @@
     &__arrow {
         display: block;
         height: 3rem;
-    }
-}
-
-@media (max-width: 30rem) {
-    .projectCarousel {
-        width: 105%;
-        &__body {
-            height: 75%;
-        }
     }
 }

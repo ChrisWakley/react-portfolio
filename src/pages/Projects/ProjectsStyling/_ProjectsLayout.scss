@@ -1,15 +1,16 @@
 .projects {
     position: relative;
     left: 12%;
+    top: 15vh;
     width: 88%;
     .projects__header {
         display: flex;
         justify-content: center;
         width: 100%;
         margin-bottom: 1rem;
-        // &--text {
-        //     margin-top: 0.3rem;
-        // }
+        &--text {
+            margin-top: 0.3rem;
+        }
     }
     .projects__container {
         position: relative;
@@ -24,30 +25,60 @@
     }
 }
 
-@media (min-width: 62.1rem) {
+@media (max-width: 1440px) {
     .projects {
+        left: 8%;
+        height: 84vh;
+        width: 92%;
+        .projects__container {
+            height: 75vh;
+        }
         .projects__carousel {
             display: none;
         }
     }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1024px) {
+    .projects {
+        left: 6%;
+        top: 17.5vh;
+        height: 80vh;
+        width: 90%;
+        .projects__header {
+            margin-left: 2rem;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
     .projects {
         left: 0;
+        top: 16vh;
+        width: 100%;
+        .projects__container {
+            margin-left: 1rem;
+            width: 92vw;
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    .projects {
+        margin-top: 0.2rem;
+        left: 0;
         top: 20vh;
-        height: 80vh;
+        height: 76vh;
         width: 100%;
         .projects__container {
             display: none;
         }
         .projects__carousel {
+            display: contents;
             position: relative;
             height: 60vh;
             width: 95%;
         }
     }
-}
-
-@media (max-width: 30rem) {
 }

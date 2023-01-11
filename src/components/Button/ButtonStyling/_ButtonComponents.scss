@@ -10,7 +10,19 @@
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem $color-box-shadow;
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1440px) {
+    .button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 385px) {
     .button {
         font-size: 0.8rem;
     }

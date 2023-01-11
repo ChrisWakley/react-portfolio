@@ -25,16 +25,52 @@
     transform: scale(1.4);
 }
 
-@media (max-width: 43rem) {
+@media (max-width: 1440px) {
+    .card__description--text {
+        font-size: 0.85rem;
+    }
+    .card__body {
+        &--name {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
     .card__description--text {
         font-size: 0.8rem;
+    }
+    .card__body {
+        &--name {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .card__description--text {
+        font-size: 0.6rem;
     }
     .card__body {
         &--language {
             font-size: 0.8rem;
         }
         &--name {
-            font-size: 1.2rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    .card__description--text {
+        font-size: 0.95rem;
+    }
+    .card__body {
+        &--language {
+            font-size: 1rem;
+        }
+        &--name {
+            font-size: 1.3rem;
         }
     }
 }

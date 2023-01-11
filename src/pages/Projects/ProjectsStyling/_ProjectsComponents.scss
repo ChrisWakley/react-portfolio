@@ -5,3 +5,9 @@
     color: $color-text;
     font-family: $font-heading;
 }
+
+@media (max-width: 385px) {
+    .projects__header--text {
+        font-size: 1.75rem;
+    }
+}
