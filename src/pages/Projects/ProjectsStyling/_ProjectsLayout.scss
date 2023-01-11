@@ -23,6 +23,9 @@
         width: 80vw;
         margin-left: 5.5rem;
     }
+    .projects__carousel {
+        display: none;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -32,9 +35,6 @@
         width: 92%;
         .projects__container {
             height: 75vh;
-        }
-        .projects__carousel {
-            display: none;
         }
     }
 }
